@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <body>
+        <div class="container">
+            <div class="header">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet"s/>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="header">
+    <div style="color: rgb(3, 251, 160)">
+      <form action="{{ url_for('predict')}}" method="post">
+        <br/>
+        <h1>Fantasy Premier League</h1>
+        <br/>
+        <h3>Enter a team ID</h3>
+        <input id="first" name="teamID" type="text" required="required" />
+        <br />
+        <h3>Enter a game week range</h3>
+        <input id="second" name="GameweekRange" type="text" />
+        <br />
+        <br><button id="sub" type="submit ">Start</button>
+        <br /> <br><br/>
+      </form>
+    </div>
+
+  </body>
+
+ 
+ 
+    <style>
+      body {
+        background-image: url(https://finnharps.ie/wp-content/uploads/2021/07/Finn-Harps-Fantasy-Football-League-graphic.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: cover;
+      }
+      .logo{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+      }
+       .logo2{
+        position: absolute;
+        left: 30px;
+        top: 30px;
+      }
+      .container {
+        width: 500px;
+        margin: 7% auto;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 17px #333;
+        
+      }
+
+      body {
+        font-family: "Signika+Negative", sans-serif;
+      }
+
+      .content {
+        background: white;
+        width: 50%;
+        padding: 40px;
+        margin: 100px auto;
+        font-family: calibri;
+        border-radius: 10px;
+      }
+
+      p {
+        font-size: 25px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      body {
+        background-color: lightslategray;
+        text-align: center;
+        padding: 0px;
+      }
+
+      #research {
+        font-size: 18px;
+        width: 100px;
+        height: 23px;
+        top: 23px;
+      }
+
+      #box {
+        border-radius: 60px;
+        border-color: 45px;
+        border-style: solid;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: rgb(168, 131, 61);
+        font-size: medium;
+        position: absolute;
+        width: 700px;
+        bottom: 9%;
+        height: 850px;
+        right: 30%;
+        padding: 20px;
+        margin: 20px;
+        font-size: 14px;
+      }
+
+      #research {
+        width: 99px;
+        height: 43px;
+        text-align: center;
+        border-radius: 14px;
+        font-size: 18px;
+      }
+
+      #research:hover {
+        background-color: coral;
+      }
+
+      #resea {
+        width: 99px;
+        height: 43px;
+        text-align: center;
+        border-radius: 14px;
+        font-size: 18px;
+      }
+
+      #resea:hover {
+        background-color: coral;
+      }
+
+      #sub {
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        border-radius: 14px;
+        font-size: 18px;
+        font-family:"Signika+Negative", fantasy;
+        background-color: rgb(158, 182, 216)
+      }
+
+      #sub:hover {
+        background-color: rgb(55, 84, 151);
+      }
+
+      #first {
+        border-radius: 14px;
+        height: 25px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      #second {
+        border-radius: 14px;
+        height: 25px;
+        font-size: 20px;
+        text-align: center;
+      }
+      #third {
+        border-radius: 14px;
+        height: 25px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+    </style>
+  </body>
+</html>

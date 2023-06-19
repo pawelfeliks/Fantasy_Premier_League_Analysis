@@ -1,0 +1,19 @@
+body {
+  background-image: url(keyboard.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  background: white;
+  width: 50%;
+  padding: 40px;
+  margin: 100px auto;
+  font-family: calibri;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 25px;
+  color: black;
+}
